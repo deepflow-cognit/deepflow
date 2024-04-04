@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: deepflow
+Version: 1.6
+Summary: deepflow is a standard neural networking package made for doing simple actions.
+Home-page: https://deepflow-cognit.github.io/deepflow-cognit.org/
+Author: Aaha3
+Maintainer: Aaha3
+License: Apache
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: uuid
+Requires-Dist: request
+Requires-Dist: gzip

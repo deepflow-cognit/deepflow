@@ -1,0 +1,4 @@
+numpy
+uuid
+request
+gzip

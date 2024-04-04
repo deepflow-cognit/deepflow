@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+deepflow/__init__.py
+deepflow/_api.py
+deepflow/activation.py
+deepflow/datasets.py
+deepflow/layers.py
+deepflow/losses.py
+deepflow/optimisers.py
+deepflow.egg-info/PKG-INFO
+deepflow.egg-info/SOURCES.txt
+deepflow.egg-info/dependency_links.txt
+deepflow.egg-info/requires.txt
+deepflow.egg-info/top_level.txt
