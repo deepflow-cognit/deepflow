@@ -19,7 +19,7 @@ functions:
 
 """
 
-import package.src.deepflow as deepflow
+import deepflow
 
     
     
