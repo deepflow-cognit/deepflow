@@ -9,8 +9,8 @@ deepflow is cognit's main neural networking package made for layers,activations,
 ```
 import deepflow
 
-mnist = deepflow.dataset.mnist
-(x_train,y_train) = mnist.load()
+
+(trainX,trainY),(testX,testY) = deepflow.datasets.mnist.load()
 
 model = deepflow.sequential([
     
@@ -20,7 +20,8 @@ model = deepflow.sequential([
     deepflow.layers.dense(10,1,activation="softmax")
 ])
 
-model.train_data(optimiser="adam",X=x_train,y=y_train,layers_=model,loss_calc="sce",epochs=100)
+model.train_data(optimiser="adam",X=trainX,y=trainY,loss_calc="sce",epochs=100)
+model.evaluate(X=testX,y=testY,loss_calc="sce")
 ```
  
 
